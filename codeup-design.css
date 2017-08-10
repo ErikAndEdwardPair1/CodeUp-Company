@@ -44,3 +44,18 @@
 .grey-palette{
     background-color: #E6E6E6;
 }
+/*sizing for logo and icons*/
+
+.cust-logo {
+    height: 105px;
+    width: 105px;
+    border-radius: 52.5px;
+    text-align: center;
+}
+
+.cust-icons {
+    height: 18px;
+    width: 18px;
+    border-radius: 9px;
+    text-align: center;
+}
