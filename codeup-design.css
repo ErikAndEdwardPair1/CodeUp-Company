@@ -1,0 +1,46 @@
+/*CSS for fonts, later in workflow*/
+@import url('https://fonts.googleapis.com/css?family=Abel|Anton');
+/*CSS for headings*/
+.cust-h{
+    font-family: 'Anton', sans-serif;
+}
+.cust-h1{
+    font-size:64px;
+}
+.cust-h2{
+    font-size:48px;
+}
+.cust-h3{
+    font-size:40px;
+}
+.cust-h4{
+    font-size:32px;
+}
+.cust-h5{
+    font-size:28px;
+}
+
+/*Styling for paragraph*/
+.cust-p{
+    font-family: 'Abel', sans-serif;
+}
+
+/*Color palette styles*/
+.red-palette{
+    background-color:#E6563B;
+}
+.orange-palette{
+    background-color: #E6563B;
+}
+.green-palette{
+    background-color: #7CB06C;
+}
+.blue-palette{
+    background-color: #00ABA9;
+}
+.snow-palette{
+    background-color: #F0F0F0;
+}
+.grey-palette{
+    background-color: #E6E6E6;
+}
