@@ -80,4 +80,25 @@
 /*Image border*/
 .cust-image {
     border: 12px solid #E6E6E6;
+    height:230px;
+    width:100%;
+}
+
+#mac{
+    background-size:cover;
+    background-image: url(../img/macbook.jpg);
+
+
+}
+#man{
+    background-size:cover;
+    background-image: url(../img/man.jpg);
+}
+#pad{
+    background-image: url(../img/apple-ipad.jpg);
+    background-size:cover;
+}
+#sec{
+    background-image: url(../img/security.jpg);
+    background-size:cover;
 }
