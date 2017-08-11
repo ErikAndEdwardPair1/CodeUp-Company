@@ -1,9 +1,14 @@
-*CSS for fonts, later in workflow*/
+/*CSS for fonts, later in workflow*/
 @import url('https://fonts.googleapis.com/css?family=Abel|Anton');
 /*CSS for headings*/
 .cust-h{
     font-family: 'Anton', sans-serif;
 }
+
+.cust-image {
+    border: 12px solid #E6E6E6;
+}
+
 .cust-h1{
     font-size:64px;
 }
@@ -50,11 +55,13 @@
 /*sizing for logo and icons*/
 
 .cust-logo {
+    display: block;
     height: 105px;
     width: 105px;
     border-radius: 52.5px;
     line-height:105px;
     margin: 0 auto;
+    padding-right: 5px;
 }
 
 /*.cust-circle {*/
@@ -69,10 +76,9 @@
     border:3px solid white;
 }
 
-.cust-border>h5 {
-    font-size: 20px;
-
-}
+/*.cust-border>h5 {*/
+    /*font-size: 20px;*/
+/*}*/
 
 .cust-icons {
     height: 18px;
