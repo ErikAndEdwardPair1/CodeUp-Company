@@ -64,7 +64,12 @@
     border:3px solid white;
 }
 
-
+/*Creating the horizontal line before the circle*/
+#cust-hr {
+    width: 70%;
+    background-color: #E6E6E6;
+    height: 4px;
+}
 
 .cust-icons {
     height: 18px;
@@ -101,4 +106,14 @@
 #sec{
     background-image: url(../img/security.jpg);
     background-size:cover;
+}
+
+.cust-media {
+    height: 64px;
+    width: 100%;
+}
+
+#cust-phone {
+    background-size: cover;
+    background-image: url(../img/mobile-phone.jpg);
 }
