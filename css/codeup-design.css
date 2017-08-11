@@ -5,10 +5,6 @@
     font-family: 'Anton', sans-serif;
 }
 
-.cust-image {
-    border: 12px solid #E6E6E6;
-}
-
 .cust-h1{
     font-size:64px;
 }
@@ -64,21 +60,11 @@
     padding-right: 5px;
 }
 
-/*.cust-circle {*/
-    /*height: 3em;*/
-    /*width: 3em;*/
-    /*border-radius: 1.5em;*/
-    /*line-height:3em;*/
-    /*margin: 0 auto;*/
-/*} The 4 circles aren't necessarily the same size as the logo even though it looks like the exact same size; thats what Jason told me'... maybe we can create a new class and change them for these four circles*/
-
 .cust-border{
     border:3px solid white;
 }
 
-/*.cust-border>h5 {*/
-    /*font-size: 20px;*/
-/*}*/
+
 
 .cust-icons {
     height: 18px;
@@ -89,4 +75,9 @@
 }
 .cust-text{
     color:#FFF;
+}
+
+/*Image border*/
+.cust-image {
+    border: 12px solid #E6E6E6;
 }
