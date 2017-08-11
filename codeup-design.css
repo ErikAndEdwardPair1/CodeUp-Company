@@ -1,4 +1,4 @@
-/*CSS for fonts, later in workflow*/
+*CSS for fonts, later in workflow*/
 @import url('https://fonts.googleapis.com/css?family=Abel|Anton');
 /*CSS for headings*/
 .cust-h{
@@ -56,8 +56,21 @@
     line-height:105px;
     margin: 0 auto;
 }
+
+/*.cust-circle {*/
+    /*height: 3em;*/
+    /*width: 3em;*/
+    /*border-radius: 1.5em;*/
+    /*line-height:3em;*/
+    /*margin: 0 auto;*/
+/*} The 4 circles aren't necessarily the same size as the logo even though it looks like the exact same size; thats what Jason told me'... maybe we can create a new class and change them for these four circles*/
+
 .cust-border{
     border:3px solid white;
+}
+
+.cust-border>h5 {
+    font-size: 20px;
 
 }
 
